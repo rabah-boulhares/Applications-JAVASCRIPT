@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
   const messageDiv = document.getElementById(uniqueId);
   loader(messageDiv);
 
-  const response = await fetch("https://rabah-chatgpt-openai.onrender.com", {
+  const response = await fetch("https://rabah-chatgpt-openai.onrender.com/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
